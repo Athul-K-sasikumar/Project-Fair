@@ -1,0 +1,24 @@
+*{
+  font-family: "Montserrat", system-ui;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Ensure the app container takes the full viewport height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1; /* Takes up the remaining space, pushing footer to the bottom */
+}
+
+/* Optional: styling for your footer */
+footer {
+  padding: 20px;
+  background-color: #007bff; /* Matches 'bg-primary' */
+  color: white;
+}
